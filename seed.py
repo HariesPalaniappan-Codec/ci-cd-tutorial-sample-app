@@ -9,6 +9,8 @@ class Seeder(object):
             db.session.add(new_record)
             db.session.commit()
 
+# Main.py
+print("CI / CD Example")            
 if __name__ == '__main__':
     print("Seeding...")
     seeder = Seeder()
